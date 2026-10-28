@@ -191,16 +191,11 @@ rl-warmstart-grid/
 │   ├── v2/best_model.zip         ← v2 PPO (ent_coef=0.01)
 │   └── v3/best_model.zip         ← v3 PPO (ent_coef=0.05)
 │
-├── 📓 notebooks/
-│   └── results_analysis.ipynb    ← charts and statistical analysis
-│
 ├── 📚 docs/
-│   ├── Phase1_Report.pdf         ← full project report
-│   └── architecture.png          ← system diagram
-│
-└── 🖼️ assets/
-    ├── banner.png
-    └── dashboard_preview.png
+│   ├── fig1_solve_time.png        
+│   ├── fig2_policy_collapse.png
+    └── architecture.png
+
 ```
 
 ---
