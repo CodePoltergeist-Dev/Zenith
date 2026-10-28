@@ -66,10 +66,6 @@ The dashboard opens at `localhost:8501` with four tabs:
 | 📊 **Results Analysis** | All experimental results with interactive charts |
 | ℹ️ **About** | System pipeline and contribution summary |
 
-<div align="center">
-<img src="assets/dashboard_preview.png" alt="Streamlit Dashboard" width="90%"/>
-</div>
-
 ---
 
 ## 📊 Key Results
