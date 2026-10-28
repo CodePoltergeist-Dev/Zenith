@@ -1,0 +1,31 @@
+# save as sanity_check.py
+import gymnasium as gym
+import gym_power_res
+import time
+import numpy as np
+
+env = gym.make("RestorationDisEnv-v1")
+raw_env = env.unwrapped
+
+print("Sanity check — running same scenario 5 times")
+print("If times are consistent, timing is real\n")
+
+# fix the random seed so same fault scenario each time
+for trial in range(5):
+    # reset with same seed
+    obs, info = env.reset(seed=42)
+    
+    t0 = time.perf_counter()
+    obs2, reward, term, trunc, info2 = env.step(1)
+    elapsed = (time.perf_counter() - t0) * 1000
+    
+    hook_time = getattr(raw_env, '_last_solve_ms', None)
+    
+    print(f"Trial {trial+1}: wall={elapsed:.1f}ms | "
+          f"hook={hook_time:.1f}ms | "
+          f"status={info2.get('status')} | "
+          f"reward={reward:.1f}")
+
+env.close()
+print("\nIf hook times are consistent across trials → timing is real")
+print("If hook times vary wildly → something is wrong")
