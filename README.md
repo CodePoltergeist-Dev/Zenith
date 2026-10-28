@@ -2,7 +2,7 @@
 
 <img src="assets/banner.png" alt="RL Warm-Start MILP for Grid Restoration" width="100%"/>
 
-# ⚡ RL Warm-Start MILP for Autonomous Distribution Grid Restoration
+# ⚡Zenith: RL Warm-Start MILP for Autonomous Distribution Grid Restoration
 
 **First application of RL-warm-starts-MILP to radiality-constrained distribution restoration**
 
@@ -50,8 +50,8 @@ Two existing approaches both fail:
 
 ```bash
 # clone and run the live dashboard
-git clone https://github.com/yourusername/rl-warmstart-grid.git
-cd rl-warmstart-grid
+git clone https://github.com/CodePoltergeist-Dev/Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration.git
+cd Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
 pip install -r requirements.txt
 streamlit run demo_dashboard.py
 ```
@@ -158,7 +158,7 @@ Fault Event
 ## 📁 Repository Structure
 
 ```
-rl-warmstart-grid/
+Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main/
 │
 ├── 📄 README.md
 ├── 📄 requirements.txt
@@ -206,15 +206,15 @@ rl-warmstart-grid/
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/yourusername/rl-warmstart-grid.git
-cd rl-warmstart-grid
+git clone https://github.com/CodePoltergeist-Dev/Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration.git
+cd Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
 ```
 
 ### Step 2 — Create environment
 
 ```bash
-conda create -n rl-warmstart-grid python=3.10 -y
-conda activate rl-warmstart-grid
+conda create -n Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main python=3.10 -y
+conda activate Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
 ```
 
 ### Step 3 — Install dependencies
