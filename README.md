@@ -21,7 +21,6 @@
   <a href="#-architecture">Architecture</a> •
   <a href="#-installation">Installation</a> •
   <a href="#-usage">Usage</a> •
-  <a href="#-paper">Paper</a>
 </p>
 
 </div>
