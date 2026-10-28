@@ -400,7 +400,6 @@ This project is on the IEEE publication track.
 - [Stable-Baselines3](https://stable-baselines3.readthedocs.io) — PPO implementation
 - [HiGHS](https://highs.dev) — open-source MILP solver
 - [Farama Foundation](https://gymnasium.farama.org) — Gymnasium API
-- Karpagam Academy of Higher Education, Department of CSE
 
 ---
 
@@ -411,5 +410,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-<sub>Built by <a href="https://github.com/yourusername">Gokul R</a> · Karpagam Academy of Higher Education · 2026</sub>
+<sub>Built by <a href="github.com/CodePoltergeist-Dev">Gokul Krishna U P</a></sub>
 </div>
