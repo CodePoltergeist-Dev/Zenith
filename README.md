@@ -20,7 +20,7 @@
   <a href="#-key-results">Results</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
+  <a href="#-usage">Usage</a>
 </p>
 
 </div>
