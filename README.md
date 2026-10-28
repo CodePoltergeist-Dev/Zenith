@@ -50,8 +50,8 @@ Two existing approaches both fail:
 
 ```bash
 # clone and run the live dashboard
-git clone https://github.com/CodePoltergeist-Dev/Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration.git
-cd Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
+git clone https://github.com/CodePoltergeist-Dev/Zenith.git
+cd Zenith-main
 pip install -r requirements.txt
 streamlit run demo_dashboard.py
 ```
@@ -158,7 +158,7 @@ Fault Event
 ## 📁 Repository Structure
 
 ```
-Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main/
+Zenith-main/
 │
 ├── 📄 README.md
 ├── 📄 requirements.txt
@@ -206,15 +206,15 @@ Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main/
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/CodePoltergeist-Dev/Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration.git
-cd Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
+git clone https://github.com/CodePoltergeist-Dev/Zenith.git
+cd Zenith-main
 ```
 
 ### Step 2 — Create environment
 
 ```bash
-conda create -n Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main python=3.10 -y
-conda activate Zenith-RL-Warm-Start-MILP-for-Autonomous-Distribution-Grid-Restoration-main
+conda create -n Zenith-main python=3.10 -y
+conda activate Zenith-main
 ```
 
 ### Step 3 — Install dependencies
